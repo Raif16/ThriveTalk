@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  min-width: 1200px;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #f4f9e2;
+}
+
+.header-nav {
+  padding: 27px 129px 0 179px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 187px;
+}
+
+.logo {
+  height: 27px;
+}
+
+.menu {
+}
+
+.menu__list {
+  display: flex;
+  list-style: none;
+}
+
+.menu__item {
+  margin-right: 27px;
+  text-decoration: none;
+  color: #22356f;
+}
+
+.menu__item span {
+  border-bottom: 2px solid #22356f;
+  padding-bottom: 14px;
+}
+
+.contacts {
+  padding: 20px 19px;
+  background-color: #62d0df;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.contacts:hover {
+  opacity: 0.7;
+}
+
+.container {
+  margin-left: 179px;
+}
+
+.header__title {
+  color: #62d0df;
+  font-size: 24px;
+  height: 64px;
+}
+.header__subtitle {
+  width: 484px;
+  text-transform: uppercase;
+  font-size: 48px;
+  line-height: 53px;
+  color: #22356f;
+  height: 167px;
+  margin-bottom: 19px;
+}
+.header__description {
+  width: 469px;
+  color: #22356f;
+  font-size: 24px;
+  line-height: 42px;
+  height: 161px;
+  margin-bottom: 73px;
+}
+.button {
+  display: flex;
+  width: 338px;
+  align-items: center;
+  padding-bottom: 75px;
+}
+.button__left {
+  background-color: #f9b640;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  color: white;
+  width: 150px;
+  margin-right: 38px;
+  text-align: center;
+}
+.button__right {
+  text-align: center;
+  width: 150px;
+  color: #fab63e;
+  text-transform: uppercase;
+}
+
+.thrive {
+  padding-top: 146px;
+  background-color: #62d0df;
+  color: white;
+  position: relative;
+  height: 604px;
+  z-index: 1;
+}
+
+.strip {
+  width: 1400px;
+  height: 4px;
+  background-color: #d9d9d9;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+.thrive__title {
+  font-size: 36px;
+  line-height: 27px;
+  margin-bottom: 75px;
+}
+.thrive__description {
+  width: 555px;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.thrive__description span {
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.thrive__image {
+  width: 525px;
+  height: 604px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.about {
+  height: 361px;
+  display: flex;
+}
+.about__title {
+  font-size: 16px;
+  color: #22356f;
+  line-height: 22px;
+  width: 93px;
+  margin: 156px 225px 0 106px;
+}
+.about__description {
+  font-size: 24px;
+  line-height: 33px;
+  color: #22356f;
+  width: 592px;
+  margin-top: 150px;
+}
+
+.help-with__title {
+  margin-top: 70px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  color: #22356f80;
+  text-transform: uppercase;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+}
+
+.card-item {
+  width: 360px;
+  height: 360px;
+}
+
+.card-item__title {
+  border-top: 1px solid white;
+  padding-top: 23px;
+  width: 232px;
+  margin: 95px auto 0;
+  font-size: 32px;
+  line-height: 33px;
+  align-self: flex-start;
+}
+
+.card-item_rose {
+  background-color: #ffe2de;
+}
+
+.card-item_green {
+  background-color: #c4e769;
+}
+
+.card-item_sea {
+  background-color: #62d0df;
+}
+
+.card-item_blue {
+  background-color: #0052c1;
+}
